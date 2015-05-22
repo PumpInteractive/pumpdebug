@@ -8,8 +8,10 @@ A javascript console.log() wrapper
 2. Turn the debugger on 
 3. Send messages to the console
 
-> <script src="/js/pump_debug.js"></script>
-> <script>_pump.on();</script>
+``` html
+<script src="/js/pump_debug.js"></script>
+<script>_pump.on();</script>
+```
 
 Messages will only log to the console if the debugger is set to 'on'. This is helpful for use in both live and development environments. You don't have to worry too much about forgetting to comment-out console.log() in your code anymore!
 
